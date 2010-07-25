@@ -117,7 +117,7 @@ VectorExpr<T, Vector<T, DIM>, Vector<T, DIM>, Plus<T> > operator+(const Vector<T
 	return VectorExpr<T, Vector<T, DIM>, Vector<T, DIM>, Plus<T> >(lhs, rhs);
 }
 
-/* inner product */
+/* inner product  */
 template<typename T, int DIM, typename R>
 T operator*(const Vector<T, DIM> &lhs, const R &rhs)
 {
